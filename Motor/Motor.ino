@@ -1,10 +1,10 @@
 /*
-	Набор функций для управления платформой с двумя двигателями.
+	РќР°Р±РѕСЂ С„СѓРЅРєС†РёР№ РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ РїР»Р°С‚С„РѕСЂРјРѕР№ СЃ РґРІСѓРјСЏ РґРІРёРіР°С‚РµР»СЏРјРё.
 	Arduino + Adafruit motor shield
 
-	Версия: 0.1 (Февраль 2018)
+	Р’РµСЂСЃРёСЏ: 0.1 (Р¤РµРІСЂР°Р»СЊ 2018)
 
-	© Старинин Андрей, An.St.
+	В© РЎС‚Р°СЂРёРЅРёРЅ РђРЅРґСЂРµР№, An.St.
 
 	*********************************************
 	MIT License
@@ -34,11 +34,11 @@
 */
 
 
-#include <AFMotor.h>  // Подключаем библиотеку для работы с шилдом 
+#include <AFMotor.h>  // РџРѕРґРєР»СЋС‡Р°РµРј Р±РёР±Р»РёРѕС‚РµРєСѓ РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ С€РёР»РґРѕРј 
 
-// Инициализация моторов
-AF_DCMotor M1(1); // Левый мотор
-AF_DCMotor M2(2); // Правый мотор
+// РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ РјРѕС‚РѕСЂРѕРІ
+AF_DCMotor M1(1); // Р›РµРІС‹Р№ РјРѕС‚РѕСЂ
+AF_DCMotor M2(2); // РџСЂР°РІС‹Р№ РјРѕС‚РѕСЂ
 
 
 void setup() {
@@ -53,20 +53,20 @@ void loop() {
 }
 
 void M_Stop() {
-	// СТОП!
+	// РЎРўРћРџ!
 	M1.run(RELEASE);
 	M2.run(RELEASE);
 }
 
 void Forward(byte speed) {
-	// ВПЕРЁД!
+	// Р’РџР•Р РЃР”!
 	M1.run(FORWARD);
 	M2.run(FORWARD);
 	M1.setSpeed(speed);
 	M2.setSpeed(speed);
 }
 void Forward_Acceleration() {
-	// ВПЕРЁД! РАЗГОН!
+	// Р’РџР•Р РЃР”! Р РђР—Р“РћРќ!
 	M1.run(FORWARD);
 	M2.run(FORWARD);
 	for (byte i = 0; i<255; i++) {
@@ -77,14 +77,14 @@ void Forward_Acceleration() {
 }
 
 void Backward(byte speed) {
-	// НАЗАД!
+	// РќРђР—РђР”!
 	M1.run(BACKWARD);
 	M2.run(BACKWARD);
 	M1.setSpeed(speed);
 	M2.setSpeed(speed);
 }
 void Backward_Acceleration() {
-	// НАЗАД! РАЗГОН!
+	// РќРђР—РђР”! Р РђР—Р“РћРќ!
 	M1.run(BACKWARD);
 	M2.run(BACKWARD);
 	for (byte i = 0; i < 255; i++) {
@@ -95,13 +95,13 @@ void Backward_Acceleration() {
 }
 
 void Left_Stop(byte speed) {
-	// НАЛЕВО!
+	// РќРђР›Р•Р’Рћ!
 	M1.run(RELEASE);
 	M2.run(FORWARD);
 	M2.setSpeed(speed);
 }
 void Left_Backward(byte speed) {
-	// НАЛЕВО!
+	// РќРђР›Р•Р’Рћ!
 	M1.run(BACKWARD);
 	M2.run(FORWARD);
 	M1.setSpeed(speed);
@@ -109,13 +109,13 @@ void Left_Backward(byte speed) {
 }
 
 void Right_Stop(byte speed) {
-	// НАПРАВО!
+	// РќРђРџР РђР’Рћ!
 	M1.run(FORWARD);
 	M2.run(RELEASE);
 	M2.setSpeed(speed);
 }
 void Right_Backward(byte speed) {
-	// НАПРАВО!
+	// РќРђРџР РђР’Рћ!
 	M1.run(FORWARD);
 	M2.run(BACKWARD);
 	M1.setSpeed(speed);
