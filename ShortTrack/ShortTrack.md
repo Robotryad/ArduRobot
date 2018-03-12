@@ -9,16 +9,26 @@
 *  **&copy; Starinin Andrey (AnSt), 2018**
 *  **[MIT License](LICENSE)**
 *  **Версия: 0.1 (Февраль 2018)**
+*  **---**
+*  **Ultrasonic | [MIT License](https://github.com/ErickSimoes/Ultrasonic/blob/master/LICENSE) | Copyright &copy; 2017 Erick Simões**
+*  **AFMotor | Информации о лицензии нет**
+
 
 ***
 
 ## Аппаратная часть
-* [Adafruit motor shield](https://www.adafruit.com/product/81#Learn). [Описание на русском](http://zelectro.cc/Adafruit_motor_shield)
-* [HC-SR04]()
+* Adafruit motor shield
+	+ [Adafruit motor shield](https://www.adafruit.com/product/81#Learn).
+	+ [Adafruit motor shield](https://learn.adafruit.com/adafruit-motor-shield)
+	+ [Adafruit-Motor-Shield-library](https://github.com/adafruit/Adafruit-Motor-Shield-library)
+	+ [Описание на русском](http://zelectro.cc/Adafruit_motor_shield)
+* HC-SR04
+	+ [Ultrasonic](https://github.com/ErickSimoes/Ultrasonic)
+
 
 ## Используемые библиотеки
-* [AFMotor.h](Library/AFMotor.h)
-* [Ultrasonic.h](Library/Ultrasonic.h)
+* [AFMotor.h](Library/AFMotor.zip)
+* [Ultrasonic.h](Library/Ultrasonic.zip)
 
 ## Подробное описание
 ### Функции
