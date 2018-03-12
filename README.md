@@ -1,15 +1,15 @@
 # ArduRobot
 
-Библиотеки и скетчи Arduino
+Р‘РёР±Р»РёРѕС‚РµРєРё Рё СЃРєРµС‚С‡Рё Arduino
 
-## Состав
-* **Library** - набор необходимых бибилиотек.
-* **Motor** - набор функций для управления платформой с двумя двигателями. *Arduino + Adafruit motor shield*
-* **ShortTrack** - готовый скетч для соревнования Шорт-Трек. *Arduino + Adafruit motor shield*
+## РЎРѕСЃС‚Р°РІ
+* **Library** - РЅР°Р±РѕСЂ РЅРµРѕР±С…РѕРґРёРјС‹С… Р±РёР±РёР»РёРѕС‚РµРє.
+* **Motor** - РЅР°Р±РѕСЂ С„СѓРЅРєС†РёР№ РґР»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ РїР»Р°С‚С„РѕСЂРјРѕР№ СЃ РґРІСѓРјСЏ РґРІРёРіР°С‚РµР»СЏРјРё. *Arduino + Adafruit motor shield*
+* **ShortTrack** - РіРѕС‚РѕРІС‹Р№ СЃРєРµС‚С‡ РґР»СЏ СЃРѕСЂРµРІРЅРѕРІР°РЅРёСЏ РЁРѕСЂС‚-РўСЂРµРє. *Arduino + Adafruit motor shield*
 
-## Подробное описание
+## РџРѕРґСЂРѕР±РЅРѕРµ РѕРїРёСЃР°РЅРёРµ
 * [Motor.md](Motor/Motor.md)
 * [ShortTrack.md](ShortTrack/ShortTrack.md)
 
-## Аппаратная часть
-* [Adafruit motor shield](https://www.adafruit.com/product/81#Learn). [Описание на русском](http://zelectro.cc/Adafruit_motor_shield)
+## РђРїРїР°СЂР°С‚РЅР°СЏ С‡Р°СЃС‚СЊ
+* [Adafruit motor shield](https://www.adafruit.com/product/81#Learn). [РћРїРёСЃР°РЅРёРµ РЅР° СЂСѓСЃСЃРєРѕРј](http://zelectro.cc/Adafruit_motor_shield)
