@@ -1,6 +1,6 @@
 /*
 Скетч для соревнования Шорт-трек
-Arduino + Adafruit motor shield
+Arduino + Adafruit motor shield + HC-SR04
 
 Версия: 0.1 (Февраль 2018 г.)
 
@@ -32,7 +32,7 @@ SOFTWARE.
 
 */
 
-#include <AFMotor.h>  // Подключаем библиотеку для работы с Adafruit motor shield
+#include <AFMotor.h> // Подключаем библиотеку для работы с Adafruit motor shield
 #include <Ultrasonic.h> // Подключаем библиотеку для работы с HC-SR04
 
 // Инициализация ультразвукового дальномера

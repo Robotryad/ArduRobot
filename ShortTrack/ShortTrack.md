@@ -27,8 +27,8 @@
 
 
 ## Используемые библиотеки
-* [AFMotor.h](Library/AFMotor.zip)
-* [Ultrasonic.h](Library/Ultrasonic.zip)
+* [AFMotor](Library/AFMotor.zip)
+* [Ultrasonic](Library/Ultrasonic.zip)
 
 ## Подробное описание
 ### Функции
