@@ -3,8 +3,13 @@
 Библиотеки и скетчи Arduino
 
 ## Лицензии
-*  Текст скетчей (код) распространяется по лицензии - **[MIT License](LICENSE)**. Автор - **Старинин Андрей (AnSt), 2018**
-*  Лицензирование прилагаемых бибилиотек - **для каждой библиотеки своя лицензия**  
+* Скетчи:
+  + **Motor.ino** | [MIT License](LICENSE) | **Старинин Андрей (AnSt), 2018**
+  + **ShortTrack.ino** | [MIT License](LICENSE) | **Старинин Андрей (AnSt), 2018**
+  + **Labirint.ino** | [MIT License](LICENSE) | **Старинин Андрей (AnSt), 2018**
+* Библиотеки:
+  + **AFMotor** | *Информации о лицензии нет*
+  + **Ultrasonic** | [MIT License](https://github.com/ErickSimoes/Ultrasonic/blob/master/LICENSE) | **Copyright &copy; 2017 Erick Simões**
 
 ## Состав
 * **Library** - набор необходимых бибилиотек.
