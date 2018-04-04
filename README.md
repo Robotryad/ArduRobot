@@ -18,7 +18,7 @@
 * **Labirint** - готовый скетч для соревнования Лабиринт. *Arduino + Adafruit motor shield + HC-SR04*
 
 ## Подробное описание
-* [Motor.md](https://github.com/anst-foto/ArduRobot/tree/master/Motor/Motor.md)
+* [Motor.md](https://github.com/anst-foto/ArduRobot/tree/master/Motor/MOTOR.md)
 * [ShortTrack.md](https://github.com/anst-foto/ArduRobot/tree/master/ShortTrack/ShortTrack.md)
 * [Labirint.md](https://github.com/anst-foto/ArduRobot/tree/master/Labirint/Labirint.md)
 
