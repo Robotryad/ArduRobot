@@ -4,9 +4,9 @@
 
 ## Лицензии
 * Скетчи:
-  + **Motor.ino** | [MIT License](LICENSE) | **Старинин Андрей (AnSt), 2018**
-  + **ShortTrack.ino** | [MIT License](LICENSE) | **Старинин Андрей (AnSt), 2018**
-  + **Labirint.ino** | [MIT License](LICENSE) | **Старинин Андрей (AnSt), 2018**
+  + **Motor.ino** | [MIT License](Motor/LICENSE) | **Старинин Андрей (AnSt), 2018**
+  + **ShortTrack.ino** | [MIT License](Motor/LICENSE) | **Старинин Андрей (AnSt), 2018**
+  + **Labirint.ino** | [MIT License](Motor/LICENSE) | **Старинин Андрей (AnSt), 2018**
 * Библиотеки:
   + **AFMotor** | *Информации о лицензии нет*
   + **Ultrasonic** | [MIT License](https://github.com/ErickSimoes/Ultrasonic/blob/master/LICENSE) | **Copyright &copy; 2017 Erick Simões**
