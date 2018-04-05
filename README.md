@@ -2,6 +2,8 @@
 
 Библиотеки и скетчи Arduino
 
+[Руководство](https://anst-foto.gitbooks.io/ardurobot)
+
 ## Лицензии
 * Скетчи:
   + **Motor.ino** | [MIT License](Motor/LICENSE) | **Старинин Андрей (AnSt), 2018**
@@ -24,7 +26,4 @@
 	+ [Adafruit-Motor-Shield-library](https://github.com/adafruit/Adafruit-Motor-Shield-library)
 	+ [Описание на русском](http://zelectro.cc/Adafruit_motor_shield)
 * HC-SR04
-	+ [Ultrasonic](https://github.com/ErickSimoes/Ultrasonic) 
-
-## Подробное описание
-[Руководство](https://anst-foto.gitbooks.io/ardurobot)
+	+ [Ultrasonic](https://github.com/ErickSimoes/Ultrasonic)
